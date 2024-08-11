@@ -1,0 +1,317 @@
+a {
+  cursor: pointer;
+}
+.right-side-float{
+  float: right !important;
+}
+.color_white{
+  color: white !important;
+}
+.logo-prev_advertiser{
+  height: 34 !important;
+  width: 34 !important;
+}
+.no-padding-right{
+  padding-right: 0 !important;
+}
+.inline{
+  display: inline;
+}
+.validation-text-setting{
+  width: 250px !important;
+}
+.even{
+  background-color: #fff;
+}
+input::-webkit-outer-spin-button, /* Removes arrows */
+input::-webkit-inner-spin-button, /* Removes arrows */
+input::-webkit-clear-button { /* Removes blue cross */
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ti-trash:before{
+  color: #484848 !important;
+}
+.table-wrap {
+  width:100%;
+  overflow-x:auto;
+  margin-bottom: 15px;
+ 
+  /*width: 100%;
+    overflow-x: auto;
+    margin-bottom: 15px;
+    height: 300px;
+    position: relative;*/
+}
+.campaignTrHead{
+	/*position: absolute;
+    z-index: -1;*/
+}
+.table-wrap th, .table-wrap td {
+  white-space:nowrap;
+  vertical-align:top;
+}
+.ng-show{
+	display:table-cell;
+}
+.ng-hide{
+	display: none;
+}
+.FilterNav .btn{
+  font-size: 12px;
+}
+.FilterNav p{
+    margin-bottom: 0rem;
+    font-size: 12px !important;
+
+}
+.custom-control-label-list::before, .custom-control-label-list::after{
+	top: -9px !important;
+    left: -20px !important;
+}
+.md-drppicker{
+  top: 59px !important;
+  left: auto !important;;
+  right: 0px !important;;
+}
+.dropdown-item{
+	font-size:14px;
+}
+/*.md-drppicker .ranges ul li button.active,.md-drppicker .active,.md-drppicker .btn:focus,.md-drppicker .btn:hover, .md-drppicker .btn {
+	background-color: #82a915!important;
+}*/
+.md-drppicker .btn-default{
+	    background-color: #dcdcdc !important;
+}
+@media (min-width: 992px){
+	.modal-lg {
+		max-width: 800px;
+	}
+}
+
+.login-form select {
+  background: #f4f5fa;
+  font-size: 0.9375rem;
+  height: 43px;
+  border-color: #eaeaea;
+}
+
+/*.active{
+  color: #82a915 !important;
+}*/
+
+.btn-green{
+	color:#fff;
+	background:#82a915!important;
+	border:1px solid #82a915!important;
+}
+
+
+
+
+//analytics starts
+
+.svg {
+  background-color: antiquewhite;
+}
+
+
+.bar--positive {
+  fill: #9BCCF5;
+  
+}
+
+.bar--negative {
+  fill: #ffc0cb;
+}
+
+
+/*text {
+  font: 12px Times New Roman;
+  font-weight: bold;
+}*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/*
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+*/
+
+
+/* svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+  } */
+
+  .chartsCSS{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .inLine{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+  
+  .axis path,
+  .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+  }
+  
+  .axis text{
+      font: Times;
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+  svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+  }
+  
+  .axis path,
+  .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+  }
+  
+  .axis text{
+      font: Times;
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+
+  .zip {
+    fill: none;
+    stroke: #CCC;
+    stroke-width: .5px;
+  }
+
+  .right-block {
+    margin-right: 1cm;
+    width: 7cm;
+    position: relative;
+    float: right;
+  }
+
+  .color-block {
+    width: 5cm;
+    height: 0.5cm;
+    display: block;
+    /*background-color: rgb(0, 125, 0);*/
+  }
+  .range-num{
+    display:inline;
+    margin-left : 20px;
+    font-size: small;
+  }
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/*.counties:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}*/
+
+.abc {
+    fill: red;
+}
+
+
+/* svg {
+    background-color: rgb(255, 248, 240);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  } */
+
+  .textCSS{
+    background-color: rgb(255, 248, 240);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+
+
+
+//analytics end
+tr span.only-show-on-hover {
+    visibility: hidden;
+}
+tr:hover span.only-show-on-hover  {
+    visibility: visible;
+}
+//
+.topBarDropDown{
+	width: 320px;
+	height: 36px;
+	font-size: 13px !important;
+	text-align: left;
+}
+.topBarDropDown::after {
+	float: right;
+    margin-top: 10px;
+}
+.table thead th{
+  font-size: 13px !important;
+}
+.model-image{
+  width: 800px;
+  background: white;
+  margin-left: -155px;
+  height: auto;
+}
+.forMapAgm{
+	height: 370px;
+	width: 100%;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }

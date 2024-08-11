@@ -1,0 +1,101 @@
+<div class="container-fluid dt-content-container">
+  <div class="row">
+    <app-sidebar></app-sidebar>
+
+    <div class="col dt-content pb-0">
+      <div class="row GeoPathCont pb-4 mt-2">
+        <div class="col-12" style="border-bottom: 1px solid #c5c4c4;">
+          <div class="col-4 mt-1 ml-0 pl-0">
+            <h1>Result screen</h1>
+            <p>Check results</p>
+          </div>
+          <div class="col-8 mt-1 text-right">
+            <div class="row justify-content-end">
+              <div class="col-3">
+                <select id="provincer" class="form-control" (change)="selectProvince($event.target.value)" [(ngModel)]="selectedProvince">
+                  <option selected value=''>Select Province...</option>
+                  <option value="PUNJAB">Punjab</option>
+                  <option value="KHYBER PAKHTUNKHWA">Khyber Pakhtunkhwa</option>
+                  <option value="BALOCHISTAN">Balochistan</option>
+                  <option value="SINDH">Sindh</option>
+                  <option value="FATA">Fata</option>
+                </select>
+              </div>
+
+              <div class="col-3">
+                <select id="na" class="form-control" (change)="selectPA($event.target.value)" [(ngModel)]="selectedNA">
+                  <option selected value=''>Select PA...</option>
+                  <option *ngFor="let val of filteredNAList" [value]="val">{{val}}</option>
+                </select>
+              </div>
+
+              <div class="col-1 d-flex align-items-center">
+                <i class="fas" 
+                   [ngClass]="isCardView ? 'fa-th' : 'fa-list'" 
+                   (click)="toggleView()"
+                   title="Toggle View"
+                   id="toggleIcon">
+                </i>
+              </div>
+            </div>
+          </div>
+          <hr>
+          
+          <div class="col-12 p-0 mt-2" style="overflow-y: auto; overflow-x: hidden;">
+            <ng-container *ngIf="isCardView; else listView" class="card-view">
+              <div class="row">
+                <div class="col-4" *ngFor="let data of filteredVoteDataList">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">{{data.pp_candidate}}</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">{{data.pp_party}}</h6>
+                          <p class="card-text">
+                            NA: {{data.pp_block}} <br>
+                            Votes: {{data.vote | number}} <br>
+                            Province: {{data.province}}
+                          </p>
+                        </div>
+                        <div class="col-4">
+                          <img [src]="data.candidateImage" class="card-img-right" alt="{{data.pp_candidate}}">
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+
+            <ng-template #listView class="list-view">
+              <div class="list-group mt-1 SharaeFootTraffic" style="padding-left: 20px; padding-right: 20px;">
+                <label>Election results</label>
+                <div *ngFor="let data of filteredVoteDataList; let odd = odd; let even = even; let index = index" class="list-group-item" [ngClass]="{ odd: odd, even: even}">
+                  <div class="row">
+                    <div class="col-1 d-flex align-items-center justify-content-center">
+                      <strong>{{ index + 1 }}</strong>
+                    </div>
+                    <div class="col-3">
+                      <h5>{{ data.pp_candidate }}</h5>
+                      <p>{{ data.pp_party }}</p>
+                    </div>
+                    <div class="col-3">
+                      <p>NA: {{ data.pp_block }}</p>
+                    </div>
+                    <div class="col-2">
+                      <p>Votes: {{ data.vote | number }}</p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center justify-content-center">
+                      <img [src]="data.candidateImage" class="img-fluid" alt="{{data.pp_candidate}}">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

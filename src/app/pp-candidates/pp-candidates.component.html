@@ -1,0 +1,161 @@
+<div class="container-fluid dt-content-container" [ngClass]="{'dark-mode': isDarkMode}">
+  <div class="row">
+    <app-sidebar></app-sidebar>
+
+    <div class="col dt-content pb-0">
+      <div class="row GeoPathCont pb-4 mt-2">
+        <div class="col-12" style="border-bottom: 1px solid #c5c4c4;">
+          <div class="col-4 mt-1 ml-0 pl-0">
+            <h1>Result screen</h1>
+            <p>Check results</p>
+          </div>
+          <div class="col-8 mt-1 text-right">
+            <div class="row justify-content-end">
+              <div class="col-2">
+                <select id="provincer" class="form-control" (change)="selectProvince($event.target.value)" [(ngModel)]="selectedProvince">
+                  <option selected value=''>Select Province...</option>
+                  <option value="PUNJAB">Punjab</option>
+                  <option value="KHYBER PAKHTUNKHWA">Khyber Pakhtunkhwa</option>
+                  <option value="BALOCHISTAN">Balochistan</option>
+                  <option value="SINDH">Sindh</option>
+                  <option value="FATA">Fata</option>
+                </select>
+              </div>
+
+              <div class="col-2">
+                <select id="na" class="form-control" (change)="selectNA($event.target.value)" [(ngModel)]="selectedNA">
+                  <option selected value=''>Select NA...</option>
+                  <option *ngFor="let val of filteredNAList" [value]="val">{{val}}</option>
+                </select>
+              </div>
+              
+              <div class="col-2">
+                <input type="text" class="form-control" placeholder="Search Candidates..." [(ngModel)]="searchTerm" (input)="filterResults()" />
+              </div>
+
+              <div class="col-2">
+                <select class="form-control" (change)="sortResults($event.target.value)">
+                  <option value="na">Sort by NA</option>
+                  <option value="alphabetically">Sort Alphabetically</option>
+                </select>
+              </div>
+
+              <div class="col-1 d-flex align-items-center">
+                <i class="fas" 
+                   [ngClass]="isCardView ? 'fa-th' : 'fa-list'" 
+                   (click)="toggleView()"
+                   title="Toggle View"
+                   id="toggleIcon">
+                </i>
+              </div>
+
+              <div class="col-1 d-flex align-items-center">
+                <label class="switch">
+                  <input type="checkbox" (change)="toggleDarkMode()" [checked]="isDarkMode">
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <hr>
+          
+          <div class="col-12 p-0 mt-2" style="overflow-y: auto; overflow-x: hidden;">
+            <ng-container *ngIf="isCardView; else listView" class="card-view">
+              <div class="row">
+                <div class="col-4" *ngFor="let data of filteredVoteDataList | paginate: { itemsPerPage: 10, currentPage: page }" @toggleAnimation>
+                  <div class="card" (click)="openCandidateDetails(data)">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <h5 class="card-title">{{data.candidate}}</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">{{data.political_party}}</h6>
+                          <p class="card-text">
+                            NA: {{data.na}} <br>
+                            Votes: {{data.vote | number}} <br>
+                            Province: {{data.province}}
+                          </p>
+                        </div>
+                        <div class="col-4">
+                          <img [src]="data.candidateImage" class="card-img-right" alt="{{data.candidate}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+
+            <ng-template #listView class="list-view">
+              <div class="list-group mt-1 SharaeFootTraffic" style="padding-left: 20px; padding-right: 20px;">
+                <label>Election results</label>
+                <div *ngFor="let data of filteredVoteDataList | paginate: { itemsPerPage: 10, currentPage: page }; let odd = odd; let even = even; let index = index" class="list-group-item" [ngClass]="{ odd: odd, even: even}" @toggleAnimation>
+                  <div class="row">
+                    <div class="col-1 d-flex align-items-center justify-content-center">
+                      <strong>{{ index + 1 }}</strong>
+                    </div>
+                    <div class="col-3">
+                      <h5>{{ data.candidate }}</h5>
+                      <p>{{ data.political_party }}</p>
+                    </div>
+                    <div class="col-3">
+                      <p>NA: {{ data.na }}</p>
+                    </div>
+                    <div class="col-2">
+                      <p>Votes: {{ data.vote | number }}</p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center justify-content-center">
+                      <img [src]="data.candidateImage" class="img-fluid" alt="{{data.candidate}}">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            
+            <pagination-controls (pageChange)="page = $event"></pagination-controls>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for NA Data -->
+<div class="modal-backdrop" *ngIf="showModal">
+  <div class="modal-content" @popupAnimation>
+    <div class="modal-header">
+      <h5 class="modal-title">NA {{ selectedNA }}</h5>
+      
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-12">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Candidate</th>
+                  <th>Political Party</th>
+                  <th>NA</th>
+                  <th>Votes</th>
+                  <th>Province</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let candidate of selectedNAData">
+                  <td>{{ candidate.candidate }}</td>
+                  <td>{{ candidate.political_party }}</td>
+                  <td>{{ candidate.na }}</td>
+                  <td>{{ candidate.vote | number }}</td>
+                  <td>{{ candidate.province }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+    </div>
+  </div>
+</div>

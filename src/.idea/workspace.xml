@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abeacd39-64d1-43c8-a70f-f0c3404d397e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/advertiser-profile/advertiser-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/advertiser-profile/advertiser-profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/advertiser-profile/advertiser-profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/advertiser-profile/advertiser-profile.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/advertiser-profile/company-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/advertiser-profile/company-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/analytics.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/analytics.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/analytics.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/analytics.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/analytics.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/analytics.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/report-one/report-one.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/report-one/report-one.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/report-two/report-two.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/report-two/report-two.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/report-two/report-two.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/report-two/report-two.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/analytics/report-two/report-two.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/analytics/report-two/report-two.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-poi/add-poi.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-poi/add-poi.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-poi/add-poi.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-poi/add-poi.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-poi/add-poi.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-poi/add-poi.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-segments.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-segments/add-segments.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-segments/add-segments.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-segments/add-segments.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-segments/add-segments.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-segments/add-segments.component.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/add-segments/add-segments.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/add-segments/add-segments.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/audience-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/audience-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/audience.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/audience.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/audience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/audience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/audience.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/audience.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/poi/poi-old.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/poi/poi-old.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/poi/poi.component - Copy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/poi/poi.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/poi/poi.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/poi/poi.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/poi/poi.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/audience/poi/poi.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/audience/poi/poi.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-basic/campaign-basic.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-basic/campaign-basic.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-basic/campaign-basic.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-basic/campaign-basic.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-budget/campaign-budget.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-budget/campaign-budget.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-confirmation-page/campaign-confirmation-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-confirmation-page/campaign-confirmation-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-confirmation-page/campaign-confirmation-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-confirmation-page/campaign-confirmation-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-creatives/campaign-creatives.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-data-sharing-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-data-sharing-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-list/campaign-list.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-schedule/campaign-schedule.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-schedule/campaign-schedule.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign-target/campaign-target.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign-target/campaign-target.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/campaign.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/campaign.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/campaign/segment-ids/segment-ids.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/campaign/segment-ids/segment-ids.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/customer.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/customer.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/dashboard.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/HHI-AG/HHI-AG.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/HHI-AG/HHI-AG.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/RaceAgHHI/RaceAgHHI.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/RaceAgHHI/RaceAgHHI.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/RaceBreakdown/RaceBreakdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/RaceBreakdown/RaceBreakdown.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/TotalAudience/TotalAudience.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/TotalAudience/TotalAudience.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/W-A-A-G/W-A-A-G.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/W-A-A-G/W-A-A-G.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/app.demographic.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/app.demographic.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/app.demographic.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/app.demographic.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/app.demographic.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/app.demographic.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/audience18/audience18.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/audience18/audience18.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/demographics/audience517/audience517.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/demographics/audience517/audience517.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forgot-password/forgot-password.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/forgot-password/forgot-password.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forgot-password/forgot-password.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/forgot-password/forgot-password.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/AudienceModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/AudienceModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/CampaignCreativesModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/CampaignCreativesModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/CampaignGroupModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/CampaignGroupModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/CompanyModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/CompanyModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/ImageModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/ImageModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/PoiModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/PoiModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model/SignUpModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/SignUpModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/notification/notification.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/notification/notification.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/privacy/privacy.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/privacy/privacy.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reports/reports.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/reports/reports.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reports/reports.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/reports/reports.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reports/reports.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/reports/reports.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reports/reports.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/reports/reports.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reset-password/reset-password.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/reset-password/reset-password.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/reset-password/reset-password.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/reset-password/reset-password.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setting/setting.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/setting/setting.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setting/setting.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/setting/setting.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/signup-success/signup-success.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/signup-success/signup-success.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/signup-success/signup-success.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/signup-success/signup-success.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/signup/signup.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/signup/signup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/terms-condition/terms-condition.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/terms-condition/terms-condition.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/terms-condition/terms-condition.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/terms-condition/terms-condition.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/terms/terms.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/terms/terms.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/top-nav/top-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/top-nav/top-nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/top-nav/top-nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/top-nav/top-nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/util/constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/util/constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/GeoPath -  Demographic Market Audience Information Against Panels(3390).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/d3_prepared.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/d3_prepared_Original.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/states.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/states_topo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Data/zips_us_topo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinN.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinNE.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinNE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinNW.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinNW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinS.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinSE.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinSE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/cpinSW.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/cpinSW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/login-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinN.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinNE.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinNE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinNW.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinNW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinS.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinSE.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinSE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/pinSW.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/pinSW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1066993723">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="adChoices" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abeacd39-64d1-43c8-a70f-f0c3404d397e" name="Default Changelist" comment="" />
+      <created>1580279312549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580279312549</updated>
+      <workItem from="1580279321135" duration="1171000" />
+      <workItem from="1580290662242" duration="595000" />
+      <workItem from="1580399770547" duration="593000" />
+      <workItem from="1580406785311" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2386000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/.." />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+  </component>
+</project>

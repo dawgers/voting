@@ -1,0 +1,34 @@
+<div class="container" id="container">
+    
+    <div class="form-container sign-in-container">
+        <form [formGroup]="loginForm" (ngSubmit)="tryLogin()">
+            <h1>Sign in</h1>
+            
+            
+            <div class="infield">
+                <i class="fas fa-user"></i>
+                <input type="email" placeholder="Cnic" name="Cnic" formControlName="userNameFormField" />
+                <label></label>
+            </div>
+            <div class="infield">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" formControlName="passwordFormField" />
+                <label></label>
+            </div>
+            <a href="#" class="forgot">Forgot your password?</a>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <div class="overlay-container" id="overlayCon">
+        <div class="overlay">
+            
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>CAST YOUR VOTE AND MAKE IT COUNT</p>
+                <button (click)="togglePanel()">Sign Up</button>
+                
+            </div>
+        </div>
+        <button id="overlayBtn" (click)="togglePanel()"></button>
+    </div>
+</div>

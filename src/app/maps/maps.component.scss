@@ -1,0 +1,35 @@
+#container {
+  display: grid;
+  grid-template-columns: 150px auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.map-style-menu {
+  position: sticky;
+  width: 10% !important;
+  min-width: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+}
+
+@media screen and (min-width: 500px) {
+  .map-style-menu {
+    position: sticky;
+    width: 15% !important;
+    min-width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+  }
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 100%;
+  font-size: 15px;
+  line-height: 20px;
+  max-width: 360px;
+}

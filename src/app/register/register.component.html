@@ -1,0 +1,71 @@
+<div class="registration-container">
+    <div class="registration-form-container">
+      <form [formGroup]="RegisterForm" (ngSubmit)="checkUser()">
+        <h1>Create Account</h1>
+  
+        <div class="rinput-field">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name" formControlName="nameFormField" [ngClass]="{ 'is-invalid': submitted && errorRegisterName.errors }">
+          <label></label>
+        </div>
+  
+        <div class="rinput-field">
+          <i class='fas fa-address-card'></i>
+          <input type="text" placeholder="CNIC" formControlName="userNameFormField" [ngClass]="{ 'is-invalid': submitted && errorRegisterEmail.errors }">
+          <label></label>
+          <div *ngIf="submitted && errorRegisterEmail.errors" style="color: red;" class="validation-text mwk-validation-error form-text">
+            <strong *ngIf="errorRegisterEmail.errors.required">Please enter CNIC</strong>
+          </div>
+        </div>
+  
+        <div class="rinput-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" formControlName="passwordFormField" [ngClass]="{ 'is-invalid': submitted && errorRegisterPassword.errors }">
+          <label></label>
+          <div *ngIf="submitted && errorRegisterPassword.errors" style="color: red;" class="validation-text mwk-validation-error form-text">
+            <strong *ngIf="errorRegisterPassword.errors.required">Please enter Password</strong>
+          </div>
+        </div>
+  
+        <div class="rinput-field">
+          <select [value]="selectedNa" class="form-control mt-3" (change)="selectNaDropdown($event.target.value)">
+            <option *ngFor="let val of naDataList" [value]="val.na">{{val.na}} - {{val.district}}</option>
+          </select>
+        </div>
+  
+        <div class="rinput-field">
+          <select [value]="selectedpp" class="form-control mt-3" (change)="selectppDropdown($event.target.value)">
+            <option *ngFor="let val of ppDataList" [value]="val.pp">{{val.pp}} - {{val.district}}</option>
+          </select>
+        </div>
+  
+        <div class="rinput-field">
+          <i class="fa fa-phone"></i>
+          <input type="number" placeholder="Phone No" formControlName="phoneFormField" [ngClass]="{ 'is-invalid': submitted && errorRegisterPhone.errors }">
+          <label></label>
+          <div *ngIf="submitted && errorRegisterPhone.errors" style="color: red;" class="validation-text mwk-validation-error form-text">
+            <strong *ngIf="errorRegisterPhone.errors.required">Please enter Phone No</strong>
+          </div>
+        </div>
+  
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  
+    <div class="roverlay-container" id="registrationOverlayCon">
+      <div class="roverlay">
+        <div class="roverlay-panel registration-overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login with your personal info</p>
+          <button (click)="togglePanel()">Sign In</button>
+        </div>
+        <div class="roverlay-panel registration-overlay-right">
+          <h1>Hello, Friend!</h1>
+          <p>CAST YOUR VOTE AND MAKE IT COUNT</p>
+          <button (click)="togglePanel()">Sign In</button>
+        </div>
+      </div>
+      <button id="registrationOverlayBtn" (click)="togglePanel()"></button>
+    </div>
+  </div>
+  

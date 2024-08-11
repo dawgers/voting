@@ -1,0 +1,94 @@
+<!--Header-->
+
+<head>
+  <!-- <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script> -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* #map { position:absolute; top:0; bottom:0; width:100%;} */
+  </style>
+</head>
+<app-top-nav></app-top-nav>
+<!--header-ends-->
+<div class="clearfix"></div>
+<!--Side bar-->
+<div class="container-fluid dt-content-contanier">
+  <div class="row">
+    <app-sidebar></app-sidebar>
+    <!--Header-->
+    <!-- <app-top-nav (advertiserSelection)="getAdvertiserSelection($event)"></app-top-nav> -->
+    <!--header-ends-->
+    <!--Side bar-->
+    <!--Ends-->
+
+    <!-- <div class="row"> -->
+    <div class="col dt-content pb-0">
+      <div class="row GeoPathCont pb-4 mt-2">
+        <div class="col-12">
+          <div class="col-4 mt-1 ml-0 pl-0">
+            <h1>Welcome to VotingZen</h1>
+            <p>Showing results</p>
+          </div>
+          <div class="col-8 mt-0"></div>
+        </div>
+
+        <div class="col-8 float-right">
+          <div class="GeoFormWrapper">
+            <div class="row" *ngIf="!customBillBoard && !isBillBoard">
+              <div id="geocoder" class="col"></div>
+
+              <div class="col-4 mr-4">
+                <ngx-slider [(value)]="value" [options]="options" (userChange)="onChangeTime()"></ngx-slider>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-2">
+          <div class="p-0">
+            <!-- <p class="mt-4 mb-3">At the start of your campaign we will start tracking users (by mobile device ID) who drive past these and add them to your target list.</p> -->
+
+            <!--Right Form-->
+
+            <!---->
+
+            <!--<div *ngIf="editPoiBtn" class="DriveByLocCont">
+                <button type="button" (click)="createSegmentDriveBy(createSegmentDriveByView)" class="btn btn-normal">Edit Segment</button>
+              </div>-->
+            <!---->
+
+            <!--Right Form-->
+            <div id="map" class="dt-map" class="forMapAgm" [style.height.px]="screenHeight"></div>
+            <!-- <div class="addSegmentButton"> -->
+
+            <!-- </div> -->
+            <!-- <div id="map" class="dt-map" style='display:none;'>
+         <agm-map class="forMapAgm" [fullscreenControl]='true' [mapTypeControlOptions]="mapTypeControlOptions" [mapTypeControl]='true' [style.height.px]="screenHeight" [latitude]="lat" [longitude]="lng" [scrollwheel]="true" [zoom]="zoom">
+        <agm-circle *ngIf='checkSearchStatus'
+        [latitude]="lat"
+        [longitude]="lng"
+        [circleDraggable]="false"
+        [editable]="false"
+        [fillColor]="red"
+        [radius]="radiusValue" ></agm-circle>
+        <agm-marker *ngIf='checkSearchStatus' [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
+      </div>  -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <ngx-spinner></ngx-spinner>

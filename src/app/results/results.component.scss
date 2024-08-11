@@ -1,0 +1,255 @@
+@import '~animate.css/animate.css';
+
+p{
+  font-size: 1rem;
+}
+
+
+
+
+.vote-container {
+  max-width: 400px;
+  margin-left: 32%;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  // border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.SharaeFootTraffic table {
+  font-size: 13px;
+}
+
+.SharaeFootTraffic .table-bordered td,
+.table-bordered th {
+  border: 2px solid #fff;
+}
+
+.SharaeFootTraffic table thead th {
+  color: #fff;
+  background: #4472c4;
+}
+
+.SharaeFootTraffic table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+.SharaeFootTraffic table tbody tr:nth-child(odd) {
+  background: #cfd5ea;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #606469;
+}
+.card {
+  position: relative;
+  border: 1px solid #c5c4c4;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  height: 17rem;
+
+  /* Added perspective */
+  perspective: 1000px;
+
+  /* Added transform-style to preserve 3D */
+  transform-style: preserve-3d;
+
+  /* Added transform to create 3D effect */
+  &:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.1);
+  }
+
+  /* Added stripes */
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 76px;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to top right, #395779 0%, #395779 30%, transparent 70%, transparent 100%);
+    transform: rotate(-45deg);
+    opacity: 0.3;
+    transition: all 0.3s ease;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+  transform-style: preserve-3d;
+}
+
+.card-img-right {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover .card-hover {
+  opacity: 1;
+  transform-style: preserve-3d;
+}
+
+.card-hover i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  transform-style: preserve-3d;
+}
+
+.card-hover p {
+  font-size: 16px;
+  color: #555;
+  transform-style: preserve-3d;
+}
+
+#toggleIcon {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+  transition: color 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+}
+
+.GeoFormWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.GeoFormWrapper .col-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.list-group-item {
+  position: relative;
+  border: 1px solid #c5c4c4;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  height: auto;
+  padding: 20px;
+
+  /* Added stripes */
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 76px;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to top right, #395779 0%, #395779 30%, transparent 70%, transparent 100%);
+    transform: rotate(-45deg);
+    opacity: 0.3;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
+  }
+
+  .list-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 3;
+    transition: all 0.3s ease;
+
+    i {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+  }
+
+  &:hover .list-hover {
+    opacity: 3;
+  }
+}
+
+
+
+
+
+
+

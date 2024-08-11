@@ -1,0 +1,121 @@
+ <nav class="sidebar close">
+  <ng-container *ngIf="false"><!-- Hide this ng-container from rendering -->
+      <head>
+          <!-- Bootstrap Boxicons CSS -->
+          <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+      </head>
+  </ng-container>
+
+  <header>
+      <div class="image-text">
+          <span class="image">
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                    d="M415.44 512h-95.11L212.12 357.46v91.1L125.69 512H28V29.82L68.47 0h108.05l123.74 176.13V63.45L386.69 0h97.69v461.5zM38.77 35.27V496l72-52.88V194l215.5 307.64h84.79l52.35-38.17h-78.27L69 13zm82.54 466.61l80-58.78v-101l-79.76-114.4v220.94L49 501.89h72.34zM80.63 10.77l310.6 442.57h82.37V10.77h-79.75v317.56L170.91 10.77zM311 191.65l72 102.81V15.93l-72 53v122.72z" />
+            </svg>
+          </span>
+          <div class="text logo-text">
+              <span class="name">VotingZen</span>
+              <span class="profession">Influence,Impact,Inspire.</span>
+          </div>
+      </div>
+      <i class='bx bx-chevron-right toggle'></i>
+  </header>
+
+  <div class="menu-bar">
+      <div class="menu">
+
+          <li class="search-box">
+              <i class='bx bx-search icon'></i>
+              <input type="text" placeholder="Search...">
+          </li>
+
+          <ul class="menu-links">
+            <li class="nav-link">
+                <a (click)="navFunction('/maps', 'territory')" class="nav-link" routerLinkActive="active" routerLink="/maps">
+                    <i class='bx bx-home-alt icon'></i>
+                    <span class="text nav-text">NA Dashboard</span>
+                   
+                </a>
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/pp-map', 'territory')" class="nav-link" routerLinkActive="active" routerLink="/pp-map">
+                    <i class='bx bx-bar-chart-alt-2 icon'></i>
+                    <span class="text nav-text" >PA Dashboard</span>
+                    
+                </a>
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/cast-vote', 'Advertiser')" class="nav-link" routerLinkActive="active" routerLink="/cast-vote">
+                    <i class='bx bxl-venmo icon'></i>
+                    <span class="text nav-text" >Cast Vote</span>
+                   
+                </a>
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/results', 'results')" class="nav-link" routerLinkActive="active" routerLink="/results">
+                    <i class='bx bx-pie-chart-alt icon'></i>
+                    <span class="text nav-text" >NA Results</span>
+                    
+                </a>
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/results-pp', 'Reports')" class="nav-link" routerLinkActive="active" routerLink="/results-pp">
+                    <i class='bx bx-poll icon'></i>
+                    <span class="text nav-text" >PA Results</span>
+                    
+                </a>
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/upload-file', 'upload')" class="nav-link" routerLinkActive="active">
+                    <i class='bx bx-user icon' ></i>
+                    <span class="text nav-text" >Users</span>
+                    
+                </a>
+                
+            </li>
+            <li class="nav-link">
+                <a (click)="navFunction('/new', 'Territory')" class="nav-link" routerLinkActive="active" routerLink="/new">
+                    <i class='bx bx-poll icon'></i>
+                    <span class="text nav-text" >NA Candidates</span>
+                    
+                </a>
+            </li>
+
+            <li class="nav-link">
+                <a (click)="navFunction('/new', 'Territory')" class="nav-link" routerLinkActive="active" routerLink="/pp-candidates">
+                    <i class='bx bx-poll icon'></i>
+                    <span class="text nav-text" >PP Candidates</span>
+                    
+                </a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+          <li class="">
+              <a href="#">
+                  <i class='bx bx-log-out icon' ></i>
+                  <span class="text nav-text">Logout</span>
+              </a>
+          </li>
+
+          <li class="mode">
+              <div class="sun-moon">
+                  <i class='bx bx-moon icon moon'></i>
+                  <i class='bx bx-sun icon sun'></i>
+              </div>
+              <span class="mode-text text">Dark mode</span>
+
+              <div class="toggle-switch">
+                  <span class="switch"></span>
+              </div>
+          </li>
+
+      </div>
+  </div>
+ </nav>
+
+ <div class="content">
+  <!-- Content area goes here -->
+ </div>

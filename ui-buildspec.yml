@@ -1,0 +1,19 @@
+version: 0.1 
+phases: 
+  install:
+    runtime-versions:
+      nodejs: 8
+    commands: 
+      - echo Installing... Running npm install
+      - npm install 
+  pre_build: 
+    commands: 
+      - echo Pre_build.. 
+  build: 
+    commands: 
+      - echo running build command
+      - npm run ng build --prod --build-optimizer 
+  post_build: 
+    commands: 
+      - echo "CODEBUILD_SRC_DIR == $CODEBUILD_SRC_DIR" 
+      - aws s3 sync $CODEBUILD_SRC_DIR/dist/

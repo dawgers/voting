@@ -1,0 +1,54 @@
+<!-- Modal for NA Data -->
+<div class="modal-backdrop" *ngIf="showModal">
+  <div class="modal-content" @popupAnimation>
+    <div class="modal-header">
+      <h5 class="modal-title">NA {{ selectedNA }}</h5>
+      <button type="button" class="close" (click)="closeModal()" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-12">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Candidate</th>
+                  <th>Political Party</th>
+                  <th>NA</th>
+                  <th>Votes</th>
+                  <th>Province</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let candidate of selectedNAData">
+                  <td>{{ candidate.candidate }}</td>
+                  <td>{{ candidate.political_party }}</td>
+                  <td>{{ candidate.na }}</td>
+                  <td>{{ candidate.vote | number }}</td>
+                  <td>{{ candidate.province }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <canvas baseChart
+                  [datasets]="modalBarChartData"
+                  [labels]="modalBarChartLabels"
+                  [options]="modalBarChartOptions"
+                  [colors]="modalBarChartColors"
+                  [legend]="modalBarChartLegend"
+                  [chartType]="modalBarChartType">
+          </canvas>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
